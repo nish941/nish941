@@ -1,11 +1,10 @@
-// .github/scripts/generate-stats.js
 const fs = require('fs');
 const https = require('https');
 
 // --- Configuration ---
-const YOUR_USERNAME = 'nish941';  
-const THEME = 'dark'; 
-const OUTPUT_DIR = './stats/'; // Directory to save the images
+const YOUR_USERNAME = 'nish941';  // <-- CHANGE THIS TO YOUR USERNAME
+const THEME = 'radical';           // Choose your theme
+const OUTPUT_DIR = './stats/';     // Directory to save the images
 // --------------------
 
 const urls = [
