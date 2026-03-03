@@ -2,4 +2,11 @@
 
 ![Dancing Animation](images/animation.gif)
 
-![Snake animation](https://github.com/nish941/nish941/blob/output/github-contribution-grid-snake.svg)
+## 📊 GitHub Stats
+
+<!-- Make sure the path matches the OUTPUT_DIR from the script -->
+![Your GitHub stats](./stats/github-stats.svg)
+
+## 💻 Most Used Languages
+
+![Top Languages](./stats/top-langs.svg)
