@@ -1,0 +1,41 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    # Runs at 00:00 UTC every day
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    # Allows you to manually run the workflow from the Actions tab
+
+jobs:
+  update-readme:
+    name: Update Stats Cards
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Needed to commit changes back to the repo
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        # This installs the necessary package from the github-readme-stats repo
+        run: npm install @actions/core @actions/github node-fetch
+
+      - name: Generate stats cards
+        # This step runs a script we will create next
+        run: node .github/scripts/generate-stats.js
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Automatically provided by Actions
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -m "docs: update stats cards [skip ci]"
+          git push
