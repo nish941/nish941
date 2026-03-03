@@ -1,18 +1,13 @@
 <h1 align="center">Hi there, I'm Nish941! 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=500&color=58A6FF&center=true&vCenter=true&width=435&lines=Developer+from+India;Open+Source+Enthusiast;Lifelong+Learner" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=500&color=58A6FF&center=true&vCenter=true&width=435&lines=B.Tech+Junior+'23+CS;Open+Source+Enthusiast;Lifelong+Learner;Crazy+Coder" alt="Typing SVG" />
 </p>
 
 <div align="center">
   <img src="images/animation.gif" width="300" alt="Dancing animation" />
 </div>
 
----
-
-## 🚀 About Me
-
-I'm a normal B.Tech Junior who's figuring out what to do with my degree..
 ---
 
 ## 📊 GitHub Stats
@@ -40,13 +35,7 @@ I'm a normal B.Tech Junior who's figuring out what to do with my degree..
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/nish941/nish941/output/github-contribution-grid-snake.svg" style="border: 2px solid #58A6FF; border-radius: 12px;" />
 </picture>
 
----
-
-## 🏆 GitHub Trophies
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=nish941&theme=onedark&no-frame=true&row=2&column=4)](https://github.com/ryo-ma/github-profile-trophy)
-
----
+--- 
 
 ## 📫 Connect with Me
 
@@ -58,7 +47,4 @@ I'm a normal B.Tech Junior who's figuring out what to do with my degree..
 </p>
 
 ---
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=nish941&style=for-the-badge&color=58A6FF" alt="Profile views" />
-</p>
+ 
