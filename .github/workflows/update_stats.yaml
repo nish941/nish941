@@ -28,7 +28,7 @@ jobs:
 
       - name: Generate stats cards
         # This step runs a script we will create next
-        run: node .github/scripts/generate-stats.js
+        run: node .github/scripts/generate_stats.js
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Automatically provided by Actions
 
