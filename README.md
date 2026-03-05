@@ -10,17 +10,6 @@
 
 ---
 
- 
-
-<div align="center">
-  <table>
-    <tr>
-      <td>
-        <img src="./stats/github-stats.svg" alt="GitHub Stats" style="border: 2px solid #58A6FF; border-radius: 12px;" />
-       
-
----
-
 ## 🐍 Contribution Snake
 
 <picture>
