@@ -17,13 +17,7 @@
     <tr>
       <td>
         <img src="./stats/github-stats.svg" alt="GitHub Stats" style="border: 2px solid #58A6FF; border-radius: 12px;" />
-      </td>
-      <td>
-        <img src="./stats/top-langs.svg" alt="Top Languages" style="border: 2px solid #58A6FF; border-radius: 12px;" />
-      </td>
-    </tr>
-  </table>
-</div>
+       
 
 ---
 
