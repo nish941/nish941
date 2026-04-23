@@ -3,13 +3,7 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=500&color=58A6FF&center=true&vCenter=true&width=435&lines=B.Tech+Junior+'23+CS;Open+Source+Enthusiast;Lifelong+Learner;Crazy+Coder" alt="Typing SVG" />
 </p>
-
-<div align="center">
-  <img src="images/animation.gif" width="300" alt="Dancing animation" />
-</div>
-
----
-
+ 
 ## 🐍 Contribution Snake
 
 <picture>
